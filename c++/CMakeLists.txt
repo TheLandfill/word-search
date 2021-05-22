@@ -3,5 +3,5 @@ project(word-search)
 
 include_directories(${CMAKE_SOURCE_DIR}/includes)
 
-file(GLOB SOURCES "${CMAKE_SOURCE_DIR}/src/*.c")
+file(GLOB SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
 add_executable(word-search ${SOURCES})

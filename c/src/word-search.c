@@ -28,7 +28,7 @@ void print_no_border_word_search(struct Word_Search* ws, struct Color_Matrix * c
         for (int j = 0; j < ws->num_cols; j++) {
             char cur_char = *ws_get_no_border(ws, i, j);
             struct Color * cc = cm_get(cm, i, j);
-            printf("\x1b[38;2;%d;%d;%dm", cc->r, cc->g, cc->b);
+            printf(" \x1b[38;2;%d;%d;%dm", cc->r, cc->g, cc->b);
             putc(cur_char, stdout);
         }
         putc('\n', stdout);

@@ -47,8 +47,8 @@ struct Color gen_rand_color(struct xorshift32_state* state) {
 }
 
 struct Color * cm_get(struct Color_Matrix* m, int i, int j) {
-   if (i < 0 || i >= m->num_rows || j < 0 || j >= m->num_cols) {
+    if (i < 0 || i >= m->num_rows || j < 0 || j >= m->num_cols) {
        return NULL;
-   }
+    }
     return m->mat + i * m->num_cols + j;
 }

@@ -1,4 +1,4 @@
-package word-search;
+package word_search;
 public class Color {
 	private float hue_to_rgb(float p, float q, float h) {
 		if (h < 0) {

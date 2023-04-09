@@ -1,4 +1,4 @@
-package word-search;
+package word_search;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.io.FileNotFoundException;

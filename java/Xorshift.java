@@ -1,4 +1,4 @@
-package word-search;
+package word_search;
 public class Xorshift {
 	Xorshift(int seed) {
 		cur_state = seed;

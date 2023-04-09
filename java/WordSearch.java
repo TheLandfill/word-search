@@ -1,4 +1,4 @@
-package word-search;
+package word_search;
 public abstract class WordSearch {
 	public WordSearch(int n_rows, int n_cols) {
 		num_rows = n_rows;

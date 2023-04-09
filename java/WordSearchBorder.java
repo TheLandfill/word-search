@@ -1,4 +1,4 @@
-package word-search;
+package word_search;
 import java.lang.IndexOutOfBoundsException;
 
 public class WordSearchBorder extends WordSearch {
